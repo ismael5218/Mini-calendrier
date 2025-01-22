@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+}
+.calandar-container{
+    margin: ;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    width: 180px;
+    font-family: cursive;
+}
+.month-name{
+    margin: 0;
+    background-color: orangered;
+
+}
+.day-name{
+    margin: 0;
+    color: darkgray;
+}
+.day-number{
+    margin: 0;
+    font-size: 34px;
+}
