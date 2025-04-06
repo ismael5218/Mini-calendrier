@@ -6,8 +6,8 @@ const dayNumberEl = document.getElementById("day-number");
 
 const yearNameEl = document.getElementById("year-name");
 
-const date = new Date();
-const month = date.getMonth()
+let date = new Date();
+let month = date.getMonth()
 
 monthNameEl.innerText = date.toLocaleString("en",{ month:"long"});
 
